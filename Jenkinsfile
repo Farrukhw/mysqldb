@@ -13,7 +13,7 @@ pipeline
     { 
       steps 
       { 
-        sh 'docker build . -t ' + dockerRepo+imageTag+_$BUILD_NUMBER  
+        sh 'docker build . -t ' + dockerRepo+imageTag
       } 
     } 
   }
